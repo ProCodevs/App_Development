@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!-- 1) Simple Button -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Button" />
+
+    <!-- 2) Text Styled Button -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#9C27B0"
+        android:fontFamily="serif"
+        android:text="Styled Text"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- 3) No All Caps Button -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="no all caps"
+        android:textAllCaps="false" />
+
+    <!-- 4) Disabled Button -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:enabled="false"
+        android:text="Disabled" />
+
+    <!-- 5) Button with Icon -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:drawablePadding="8dp"
+        android:text="Download" />
+
+    <!-- 6) Rounded Corner Button -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_button"
+        android:text="Rounded Button"
+        android:textColor="#FFFFFF" />
+
+    <!-- 7) Image Button -->
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Image Button"
+        android:src="@drawable/ic_launcher_foreground" />
+
+</LinearLayout>
