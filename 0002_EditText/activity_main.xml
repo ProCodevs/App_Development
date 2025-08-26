@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!-- EditText XML Guide Start -->
+
+
+    <!-- Basic EditText -->
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Basic EditText" />
+
+    <!-- Text Input Type সেট করা -->
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Input Type সেট করুন"
+        android:inputType="textEmailAddress" />
+
+    <!-- Password Field -->
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password Field"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+    <!-- Max Length & Single Line -->
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Max Length and Single Line"
+        android:maxLength="15"
+        android:singleLine="true" />
+
+    <!-- Lines / Multi-line Input -->
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="top|start"
+        android:hint="Text Multi line Input"
+        android:inputType="textMultiLine"
+        android:lines="1"
+        android:scrollbars="vertical" />
+
+    <!-- Digits / Input Restriction -->
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Enter only numbers 0-9" />
+
+    <!-- Disabled / Read-only -->
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="This is disabled" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="Read only" />
+
+    <!-- EditText XML Guide End -->
+
+</LinearLayout>
