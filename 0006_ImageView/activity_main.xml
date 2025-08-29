@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <!-- ImageView Start -->
+
+
+        <!-- ImageView Fixed Size Start -->
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/pic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fixed Size" />
+
+        <!-- ImageView Fixed Size End -->
+
+
+        <!-- ImageView ScaleType Start -->
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="scaleType" />
+
+        <!-- ImageView ScaleType End -->
+
+
+        <!-- Image Load Java Start -->
+
+        <ImageView
+            android:id="@+id/imageJava"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java দিয়ে Image সেট করা" />
+
+        <!-- Image Load Java End -->
+
+
+        <!-- ImageView End -->
+
+    </LinearLayout>
+
+</ScrollView>
